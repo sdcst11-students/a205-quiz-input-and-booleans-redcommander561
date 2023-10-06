@@ -11,6 +11,8 @@ round(x)
 print(x)
 """
 
-x = Input("enter a float number:")
-round(x)
-print(x)
+import math
+
+x = float(input("enter a decimal number:"))
+answer = x**2
+print(round(answer,2))

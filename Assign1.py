@@ -1,8 +1,8 @@
 #!python3
 
-x = input()
+x = input("enter a number")
 print(x)
-exit()
+#exit()
 """
 Q1. 
 Modify line 3 so that the program asks the user to "Enter a number"
@@ -11,9 +11,9 @@ the exit() command and move on to the next question
 """
 
 x = 38.4521
-x = round(x)
+x = round(x,2)
 print(x)
-exit()
+#exit()
 """
 Q2.
 Modify line 14 so that the value of x is rounded to 2 decimal places
@@ -23,9 +23,9 @@ the exit() command and move on to the next question
 
 
 x = 3.0
-x = x
-print( x * "hello")
-exit()
+x = int(x) 
+print( x *"hello")
+#exit()
 
 """
 Q3.
@@ -36,9 +36,9 @@ the exit() command and move on to the next question
 """
 
 x = 4
-if :
+if x >= 3:
     print("x is greater than 3")
-exit()
+#exit()
 """
 Q4.
 Have line 39 check to see if x is greater than 3
@@ -46,12 +46,12 @@ When you are done, add '#' to the beginning of line 41 to comment out
 the exit() command and move on to the next question
 """
 x = 5
-if :
+if x >= 5:
     print("x is greater than 5")
-#
+elif x <= 5:
     print("x is not greater than 5")
 print()
-exit()
+#exit()
 """
 Q5.
 Modify line 49 and 51 to check if x is greater than 5 and do a different block if it isnt'
@@ -64,7 +64,7 @@ y = 4
 if:
     print("x is 3 and y is 4")
 
-exit()
+#exit()
 """
 Q6.
 Modify line 64 so that the program checks the values of both x and y
